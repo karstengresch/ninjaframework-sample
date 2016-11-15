@@ -28,10 +28,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <version>3.3</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
 
@@ -175,7 +175,6 @@
             <version>5.1.32</version>
         </dependency>
 
-
         <!-- If you want to deploy to a war please -->
         <!-- comment ninja-standalone dependency and  -->
         <!-- uncomment the dependency for ninja-servlet -->
@@ -185,11 +184,11 @@
             <version>${ninja.version}</version>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>org.ninjaframework</groupId>
             <artifactId>ninja-standalone</artifactId>
             <version>${ninja.version}</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.ninjaframework</groupId>
